@@ -26,27 +26,27 @@ Below, you’ll be asked to compute numbers and graphs, but this will not be par
 don’t have to perform the actual computations, and instead, you can just use random test data. At the end
 of this document, we also provide a JSON response from a hypothetical prediction service that you can
 use.
-Date
+#Date
 output: current date
-Period
+#Period
 Description: select number of months to forecast in the graph. By default there should be a set number of
 past data also displayed.
-Input: drop-down (3, 6, 12 months)
-Growth
+#Input: drop-down (3, 6, 12 months)
+#Growth
 Description: There are 2 types of growth to choose from dropdown. In Linear Growth, we apply a linear
 equation based on the past growth. In exponential growth, we apply an exponential equation to create a
 proportional growth based on a numeric monthly multiplier.
 Input: drop-down (3, 6, 12 months)
-Multiplier
+#Multiplier
 Description: select number of months to forecast in the graph.
 Input: numeric entry, a float number. When inactive shows “ratio” as a description
 output: monthly exponential growth based on monthly multiplier and time period.
-Timeframe
+#Timeframe
 Input: number of months. When inactive shows a description (i.e. number of months)
 Output: Number of months projected.
 Example: User chooses 5 months and 90 in the slider. He gets a projection of 90 in 5 months and all the
 months up till then are calculated.
-Slider
+#Slider
 Input: slider (min. 0 and max. 100)
 Description
 - Current (month) value is represented and remains visible.
